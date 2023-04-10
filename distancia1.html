@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <link rel="stylesheet" href="css/distancia1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <title>Calcular distancia</title>
+</head>
+<body>
+    <div class="encab"></div>
+    <div id="cont">
+        <h1>Conductor recto</h1>
+        <h2>Calcular la DISTANCIA</h2>
+        <div class="al">
+            <img class="imagrec" src="IMG/descarga.png" alt="Conductor recto">
+            <img class="imagrec" id="im2" src="IMG/images.jpg" alt="IMANGEN 2">
+        </div>
+    <div class="info1">
+        <p>Conforme incrementamos la corriente (cantidad de carga en movimiento), el campo magnético se incrementa proporcionalmente.
+             Si nos alejamos del alambre, el campo disminuye de forma inversamente proporcional a la distancia. La ley de Ampere describe
+              este fenómeno.</p><br>
+        <p>B: Magnitud del campo Magn&eacute;tico (Teslas)</p><br>
+        <p>μ: Permabilidad del medio (Teslas * metros / Amperes)</p><br>
+        <p>i: Intensidad de la corriente (Amperes)</p><br>
+        <p>π: 3.1416</p><br>
+        <p>d: distancia (Metros)</p><br>
+    </div>
+    
+    <div class="form">
+        <p id="formula">Formula para calcular la distancia en un conductor recto</p>
+                <img id="imfor" src="IMG/FDist.png" alt="formula campo Magnetico"><br>
+        <label for="inten">Introduce la Intensidad de la corriente:</label>
+        <br>
+        <input type="number" class="inten">
+        <br>
+        <label for="dist">Introduce el Campo Magn&eacute;tico:</label>
+        <br>
+        <input type="number" class="campo">
+        <div class="bot">
+            <button class="boton"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="auto" fill="currentColor" class="bi bi-calculator-fill" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm2 .5v2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0-.5.5zm0 4v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5zM4.5 9a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM4 12.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5zM7.5 6a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM7 9.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5zm.5 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM10 6.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5zm.5 2.5a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-.5-.5h-1z"/>
+              </svg>Calcular</button>
+        </div>
+        <div class="proce">
+        <div class="despeje"></div>
+        <br>
+                <div class="despeje2"></div>
+        <div class="res"></div>
+        </div>
+    </div>
+        <button class="boton" id="reg" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="auto" fill="currentColor" class="bi bi-reply-fill" viewBox="0 0 16 16">
+            <path d="M5.921 11.9 1.353 8.62a.719.719 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"/>
+          </svg><a href="index.html">Regresar</a></button>
+    </div>
+<div class="lona">
+    <img src="img/wave.svg" alt="wave">
+</div>
+<footer>
+    <div id="piepag">
+        <h2>Hecho por Wilberth Alberto Canul Pech</h2>
+            <br>
+            <h1>Gracias</h1>
+    </div>
+</footer>
+<script src="js/distancia1.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

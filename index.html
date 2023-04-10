@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/inicio.css">
+    <title>Campo Magnetico</title>
+</head>
+
+<body>
+    <div class="container">
+        <scroll-container>
+            <header>
+                <div class="opciones">
+                    <div class="su">
+                        <img src="img/logo.png" alt="logo cecyte" class="logos">
+                    </div>
+                    <ul class="sis">
+                        <a href="#page-1">
+                            <li class="linea">Definición</li>
+                        </a>
+                        <a href="#page-2">
+                            <li class="linea">App</li>
+                        </a>
+                        <a href="#page-3">
+                            <li><button class="bot">Creador</button></li>
+                        </a>
+                    </ul>
+                </div>
+            </header>
+            <section class="prese">
+                <div class="portada">
+                    <h1>Campo Magnético</h1>
+                    <br>
+                    <p>Calculadora para calcular el campo magnético en un conductor recto y en una bobina.🧲</p>
+                </div>
+                <center>
+                    <div class="scrol">
+                        <div class="scrolldown" style="--color: skyblue">
+                            <div class="chevrons">
+                                <div class="chevrondown"></div>
+                                <div class="chevrondown"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <center></center>
+            </section>
+            <scroll-page id="page-1">
+                <section class="significado">
+                    <h1>¿Que es un Campo Magnético?</h1>
+                    <br>
+                    <p>Un campo magnético es un campo de fuerza producido por cargas eléctricas en movimiento. Este
+                        campo de fuerza se aplica sobre otras cargas en movimiento no paralelas. Junto con el campo
+                        eléctrico, el campo magnético constituye el campo electromagnético, responsable de la
+                        interacción electromagnética en el espacio.</p>
+                    <br>
+                    <p>Para que exista un campo magnético debe existir una fuente de energía magnética (como un imán),
+                        una carga en movimiento o una corriente eléctrica. Estos elementos son los únicos capaces de
+                        crear un campo magnético y los únicos que pueden ser afectados por él.</p>
+                    <center>
+                        <img src="img/man.png" alt="iman" class="campoo">
+                    </center>
+                </section>
+            </scroll-page>
+            <scroll-page id="page-2">
+                <main>
+                    <div class="espec">
+                        <h1>¡Elige que quieres Calcular!🖩</h1>
+                        <br>
+                        <p>Campo magnético en bobina o en un conductor recto⚛️</p>
+                    </div>
+                    <div class="dos">
+                        <h2 class="dosdos">Conductor Recto:</h2>
+                        <div class="content-select">
+                            <select onChange=nav(this.value)>
+                                <option>C. Recto</option>
+                                <option value="campo1.html">Campo Magnético</option>
+                                <option value="distancia1.html">Distancia</option>
+                                <option value="intensidad1.html">Intensidad</option>
+                            </select>
+                            <i></i>
+                        </div>
+                        <h2 class="dosdos">Bobina:</h2>
+                        <div class="content-select2">
+                            <select onChange=nav(this.value)>
+                                <option>Bobina</option>
+                                <option value="campo2.html">Campo Magnético</option>
+                                <option value="radio2.html">Radio</option>
+                                <option value="vueltas2.html">Numero de Vueltas</option>
+                                <option value="intensidad2.html">Intensidad</option>
+                            </select>
+                            <i></i>
+                        </div>
+                    </div>
+
+                    <div class="cartas">
+                        <div class="card">
+                            <div class="card__content">
+                                <div class="card__content-heading">
+                                    <h2>Conductor Recto</h2>
+                                    <br>
+                                </div>
+                                <div class="card__content-body">
+                                    <p> Una corriente que circula por un conductor largo y recto, genera un campo
+                                        magnético alrededor del mismo..
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card4">
+                            <div class="card__content4">
+                                <div class="card__content-heading4">
+                                    <h2>Bobina</h2>
+                                    <br>
+                                </div>
+                                <div class="card__content-body4">
+                                    <p> Es consecuencia de las espiras, es por ello por lo que la fórmula que se utiliza
+                                        para calcular su campo magnético no es indiferente de la primera.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </scroll-page>
+            <section class="mapas">
+                <img src="img/mapa.png" alt="mapa conceptual" class="mapa">
+            </section>
+            <div class="lona">
+                <img src="img/wave.svg" alt="wave">
+            </div>
+            <scroll-page id="page-3">
+                <footer>
+                    <h2>Hecho por Wilberth Alberto Canul Pech</h2>
+                    <br>
+                    <br>
+                    <h1>Gracias!</h1>
+                </footer>
+            </scroll-page>
+        </scroll-container>
+    </div>
+    <script src="js/link.js"></script>
+</body>
+
+</html>
